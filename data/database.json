@@ -1,0 +1,30 @@
+{
+  "system_status": "ONLINE",
+  "engineer": "AḤAMED AL RASHĀDHĪ",
+  "environments": [
+    {
+      "id": "clatterbridge_vp",
+      "title": "DATABANK.01 // CLATTERBRIDGE VP",
+      "role": "LEAD LEVEL DESIGNER",
+      "engine": "UE 5.4.4",
+      "description": "1:1 clinical scale Virtual Production model of the Clatterbridge Cancer Centre Brachytherapy department. Coordinated asset placement, managed custom PBR ORM textures, and calibrated spatial scaling for mobile radiation safes.",
+      "tags": ["UNREAL ENGINE 5.4.4", "MAYA", "PBR MATERIALS", "LOOKDEV"]
+    },
+    {
+      "id": "last_signal",
+      "title": "DATABANK.02 // LAST SIGNAL",
+      "role": "SOLO DEVELOPER",
+      "engine": "UE 5",
+      "description": "Post-apocalyptic 3D walking simulator prioritizing environmental storytelling. Designed abandoned structural layouts and utilized atmospheric lighting pipelines combined with a custom player scanner mechanic.",
+      "tags": ["LEVEL LAYOUT", "LIGHTING", "BLUEPRINTS"]
+    },
+    {
+      "id": "sinhra",
+      "title": "DATABANK.03 // SINHRA ARCHITECTURE",
+      "role": "FULL-STACK DEVELOPER",
+      "engine": "REACT / NODE",
+      "description": "Architecting a modern luxury e-commerce storefront. Engineering custom payment integrations, editorial lookbook UI, and scalable server routing.",
+      "tags": ["DOM OPTIMIZATION", "UI/UX", "API ROUTING"]
+    }
+  ]
+}
