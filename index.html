@@ -8,8 +8,9 @@
     <!-- External Typography -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;700&family=Syncopate:wght@700&display=swap" rel="stylesheet">
     
-    <!-- CSS Connection -->
+    <!-- Core & Modular CSS -->
     <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/modules/cursor.css">
 </head>
 <body>
 
@@ -22,15 +23,16 @@
             LOC // LIVERPOOL, UK
         </div>
         <div class="nav-links">
-            <a href="index.html">01. INITIATE</a>
+            <a href="index.html" style="color: var(--accent);">01. INITIATE</a>
             <a href="projects.html">02. ENVIRONMENTS</a>
             <a href="about.html">03. ARCHITECTURE</a>
         </div>
     </nav>
 
     <main class="hero-container">
-        <h1 class="glitch-title">SPATIAL</h1>
-        <h1 class="glitch-title">ENGINEERING</h1>
+        <!-- Notice the data-value attributes required for the glitch effect -->
+        <h1 class="glitch-title" data-value="SPATIAL">SPATIAL</h1>
+        <h1 class="glitch-title" data-value="ENGINEERING">ENGINEERING</h1>
         
         <div class="role-marquee">
             > FULL-STACK WEB _ UNREAL ENGINE 5 _ LEVEL DESIGN
@@ -52,8 +54,10 @@
         </div>
     </main>
 
-    <!-- Animation Engines -->
+    <!-- Animation & Logic Engines -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="js/core.js"></script>
+    <script src="js/utils/glitch.js"></script>
+    <script src="js/components/cursor.js"></script>
 </body>
 </html>
